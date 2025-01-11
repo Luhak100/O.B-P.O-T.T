@@ -6,3 +6,4 @@ CMD ["python", "main.py"]
 
 RUN apt-get update && apt-get install -y cmake
 RUN apt-get update && apt-get install -y libcairo2-dev
+RUN apt-get update && apt-get install -y build-essential python3-dev libpq-dev
